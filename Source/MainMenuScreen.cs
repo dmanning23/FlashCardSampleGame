@@ -14,6 +14,8 @@ namespace FlashCardSampleGame
 
 		int _score = 0;
 
+		Deck _cards;
+
 		#endregion //Fields
 
 		#region Initialization
@@ -34,6 +36,8 @@ namespace FlashCardSampleGame
 			// Add entries to the menu.
 			MenuEntries.Add(questionMenuEntry);
 			MenuEntries.Add(exitMenuEntry); //TODO: only remove this entry for the demo
+
+			_cards = new Deck("Colors.xml");
 		}
 
 		#endregion //Initialization
@@ -42,6 +46,7 @@ namespace FlashCardSampleGame
 
 		public override void LoadContent()
 		{
+			_cards.ReadXmlFile();
 		}
 
 		#endregion //Methods
@@ -49,15 +54,12 @@ namespace FlashCardSampleGame
 		#region Handle Input
 
 		/// <summary>
-		/// Event handler for when the High Scores menu entry is selected.
+		/// Event handler for when the Ask Question menu entry is selected.
 		/// </summary>
 		private void QuestionMenuEntrySelected(object sender, PlayerIndexEventArgs e)
 		{
-			//screen to adjust mic sensitivity
-			ScreenManager.AddScreen(new QuestionScreen(QuestionAnswered,
-				"Which is the correct answer?", 
-				"Right Answer",
-				new List<string> { "Wrong Answer", "Wrong Answer", "Wrong Answer" }));
+			//Ask a simple question.
+			ScreenManager.AddScreen(new QuestionScreen(QuestionAnswered, _cards));
 		}
 
 		/// <summary>

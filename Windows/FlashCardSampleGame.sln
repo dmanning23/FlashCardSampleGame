@@ -32,6 +32,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{19FE9C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPrimitiveBuddy.Windows", "..\externals\BasicPrimitiveBuddy\Windows\BasicPrimitiveBuddy.Windows.csproj", "{0FAA1286-7BFA-4765-8B51-62E438CB121D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlBuddy.Windows", "..\externals\XmlBuddy\Windows\XmlBuddy.Windows.csproj", "{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,14 @@ Global
 		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Release|x86.ActiveCfg = Release|x86
 		{0FAA1286-7BFA-4765-8B51-62E438CB121D}.Release|x86.Build.0 = Release|x86
+		{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}.Debug|x86.ActiveCfg = Debug|x86
+		{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}.Debug|x86.Build.0 = Debug|x86
+		{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}.Release|x86.ActiveCfg = Release|x86
+		{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -76,12 +76,12 @@
       <Link>Content\ArialBlack24.xnb</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\ArialBlack48.xnb">
-      <Link>Content\ArialBlack48.xnb</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\ArialBlack72.xnb">
       <Link>Content\ArialBlack72.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\ArialBlack48Spanish.xnb">
+      <Link>Content\ArialBlack48Spanish.xnb</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="App.config" />
@@ -102,6 +102,14 @@
     </Content>
     <Content Include="..\externals\MenuBuddy\Source\Content\MenuSelect.wav">
       <Link>Content\MenuSelect.wav</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Source\Content\Colors.xml">
+      <Link>Content\Colors.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Source\Content\Colors_16.xml">
+      <Link>Content\Colors_16.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SDL.dll">
@@ -128,6 +136,10 @@
     <ProjectReference Include="..\externals\TouchScreenBuddy\Windows\TouchScreenBuddy.Windows.csproj">
       <Project>{764d3dc6-927a-45ee-901d-ea07966dde72}</Project>
       <Name>TouchScreenBuddy.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\XmlBuddy\Windows\XmlBuddy.Windows.csproj">
+      <Project>{58b118ee-bd5d-4a5d-8ead-8c039dae553a}</Project>
+      <Name>XmlBuddy.Windows</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

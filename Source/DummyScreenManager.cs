@@ -22,7 +22,7 @@ namespace FlashCardSampleGame
 		public DummyScreenManager(Game game)
 			: base(game,
 				"ArialBlack72",
-				"ArialBlack48",
+				"ArialBlack48Spanish",
 				"ArialBlack24",
 				"MenuMove",
 				"MenuSelect")
