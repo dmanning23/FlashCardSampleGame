@@ -34,3 +34,6 @@
 [submodule "externals/XmlBuddy"]
 	path = externals/XmlBuddy
 	url = git@github.com:dmanning23/XmlBuddy.git
+[submodule "externals/TetrisRandomizer"]
+	path = externals/TetrisRandomizer
+	url = git@github.com:dmanning23/TetrisRandomizer.git
