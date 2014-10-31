@@ -37,3 +37,7 @@
 [submodule "externals/TetrisRandomizer"]
 	path = externals/TetrisRandomizer
 	url = git@github.com:dmanning23/TetrisRandomizer.git
+[submodule "externals/XNA"]
+	path = externals/XNA
+	url = git@github.com:dmanning23/XnaCompiledResources.git
+
