@@ -1,13 +1,10 @@
-using System;
-using Microsoft.Xna.Framework.Input.Touch;
-using TouchScreenBuddy;
+using BasicPrimitiveBuddy;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Input.Touch;
 using ResolutionBuddy;
-using MenuBuddy;
-using BasicPrimitiveBuddy;
+using TouchScreenBuddy;
 
 namespace FlashCardSampleGame
 {

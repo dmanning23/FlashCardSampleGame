@@ -1,7 +1,6 @@
-using MenuBuddy;
-using System.Collections.Generic;
-using Microsoft.Xna.Framework;
 using FlashCards;
+using MenuBuddy;
+using Microsoft.Xna.Framework;
 
 namespace FlashCardSampleGame
 {
