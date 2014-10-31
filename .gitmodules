@@ -41,3 +41,6 @@
 	path = externals/XNA
 	url = git@github.com:dmanning23/XnaCompiledResources.git
 
+[submodule "externals/MonoGame"]
+	path = externals/MonoGame
+	url = git@github.com:dmanning23/MonoGame.git
