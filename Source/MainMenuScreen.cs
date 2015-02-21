@@ -35,8 +35,6 @@ namespace FlashCardSampleGame
 			// Add entries to the menu.
 			MenuEntries.Add(questionMenuEntry);
 			MenuEntries.Add(exitMenuEntry); //TODO: only remove this entry for the demo
-
-			_cards = new Deck("Colors.xml");
 		}
 
 		#endregion //Initialization
@@ -45,7 +43,15 @@ namespace FlashCardSampleGame
 
 		public override void LoadContent()
 		{
+			_cards = new Deck("Colors.xml");
 			_cards.ReadXmlFile();
+
+			//Add the Numbers deck too
+			var nums = new Deck("Numbers.xml");
+			nums.ReadXmlFile();
+			_cards.AddDeck(nums);
+
+			base.LoadContent();
 		}
 
 		#endregion //Methods

@@ -44,3 +44,6 @@
 [submodule "externals/MonoGame"]
 	path = externals/MonoGame
 	url = git@github.com:dmanning23/MonoGame.git
+[submodule "externals/VocabLessons"]
+	path = externals/VocabLessons
+	url = git@github.com:dmanning23/VocabLessons.git

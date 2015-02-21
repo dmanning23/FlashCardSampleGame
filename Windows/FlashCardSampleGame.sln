@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCardSampleGame", "FlashCardSampleGame.csproj", "{78CB63AC-5072-47DD-ACED-60CA09B2E5AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filename.Windows", "..\externals\Filename\Windows\Filename.Windows.csproj", "{2A84DFE8-75E0-4774-BAAF-00629ED44405}"
@@ -151,10 +149,12 @@ Global
 		{58B118EE-BD5D-4A5D-8EAD-8C039DAE553A}.Release|x86.Build.0 = Release|x86
 		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Debug|x86.ActiveCfg = Debug|x86
+		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Debug|x86.Build.0 = Debug|x86
 		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Release|x86.ActiveCfg = Release|Any CPU
+		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Release|x86.ActiveCfg = Release|x86
+		{0C00E65E-718D-4E16-9CA9-F0E9187DE238}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
