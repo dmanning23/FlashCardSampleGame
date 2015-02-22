@@ -27,9 +27,7 @@ namespace FlashCardSampleGame
 				"MenuMove",
 				"MenuSelect")
 		{
-#if ANDROID
 			TouchMenus = true;
-#endif
 		}
 
 		/// <summary>
