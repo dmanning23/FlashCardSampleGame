@@ -120,6 +120,10 @@
       <Project>{0faa1286-7bfa-4765-8b51-62e438cb121d}</Project>
       <Name>BasicPrimitiveBuddy.Windows</Name>
     </ProjectReference>
+    <ProjectReference Include="..\externals\Filename\Windows\Filename.Windows.csproj">
+      <Project>{2a84dfe8-75e0-4774-baaf-00629ed44405}</Project>
+      <Name>Filename.Windows</Name>
+    </ProjectReference>
     <ProjectReference Include="..\externals\FlashCards\Windows\FlashCards.Windows.csproj">
       <Project>{1cae65ab-2002-4121-8ea0-fb1499904c5e}</Project>
       <Name>FlashCards.Windows</Name>
