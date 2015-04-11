@@ -22,27 +22,25 @@ namespace FlashCardSampleGame
 		/// <summary>
 		/// Constructor fills in the menu contents.
 		/// </summary>
-		public MainMenuScreen() : base("Score: 0")
+		public MainMenuScreen()
+			: base("Score: 0")
+		{
+		}
+
+		public override void LoadContent()
 		{
 			// Create our menu entries.
-			var questionMenuEntry = new MenuEntry("Ask Question");
-			var exitMenuEntry = new MenuEntry("Exit");
+			var questionMenuEntry = new MenuEntry(ScreenManager.Styles.MenuEntryStyle, "Ask Question");
+			var exitMenuEntry = new MenuEntry(ScreenManager.Styles.MenuEntryStyle, "Exit");
 
 			// Hook up menu event handlers.
 			questionMenuEntry.Selected += QuestionMenuEntrySelected;
 			exitMenuEntry.Selected += OnExit;
 
 			// Add entries to the menu.
-			MenuEntries.Add(questionMenuEntry);
-			MenuEntries.Add(exitMenuEntry); //TODO: only remove this entry for the demo
-		}
+			AddMenuEntry(questionMenuEntry);
+			AddMenuEntry(exitMenuEntry); //TODO: only remove this entry for the demo
 
-		#endregion //Initialization
-
-		#region Methods
-
-		public override void LoadContent()
-		{
 			_cards = new Deck("Colors.xml");
 			_cards.ReadXmlFile();
 
@@ -54,7 +52,7 @@ namespace FlashCardSampleGame
 			base.LoadContent();
 		}
 
-		#endregion //Methods
+		#endregion //Initialization
 
 		#region Handle Input
 
@@ -73,7 +71,7 @@ namespace FlashCardSampleGame
 		protected void OnExit(object sender, PlayerIndexEventArgs e)
 		{
 			const string message = "Are you sure you want to exit?";
-			var confirmExitMessageBox = new MessageBoxScreen(message, !ScreenManager.TouchMenus);
+			var confirmExitMessageBox = new MessageBoxScreen(message, false);
 			confirmExitMessageBox.Accepted += ConfirmExitMessageBoxAccepted;
 			ScreenManager.AddScreen(confirmExitMessageBox, e.PlayerIndex);
 		}
@@ -95,7 +93,7 @@ namespace FlashCardSampleGame
 		/// <summary>
 		/// Ignore the cancel message from the main menu
 		/// </summary>
-		protected override void OnCancel(PlayerIndex playerIndex)
+		public override void OnCancel(PlayerIndex? playerIndex)
 		{
 			//do nothing here!
 		}

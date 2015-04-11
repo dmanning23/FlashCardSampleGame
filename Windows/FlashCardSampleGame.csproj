@@ -58,9 +58,6 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Source\DummyScreenManager.cs">
-      <Link>DummyScreenManager.cs</Link>
-    </Compile>
     <Compile Include="..\Source\Game1.cs">
       <Link>Game1.cs</Link>
     </Compile>
