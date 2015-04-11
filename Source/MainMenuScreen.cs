@@ -29,6 +29,8 @@ namespace FlashCardSampleGame
 
 		public override void LoadContent()
 		{
+			base.LoadContent();
+
 			// Create our menu entries.
 			var questionMenuEntry = new MenuEntry(ScreenManager.Styles.MenuEntryStyle, "Ask Question");
 			var exitMenuEntry = new MenuEntry(ScreenManager.Styles.MenuEntryStyle, "Exit");

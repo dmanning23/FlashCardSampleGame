@@ -18,6 +18,14 @@ namespace FlashCardSampleGame
 			return new IScreen[] { new MainMenuScreen() };
 		}
 
+		protected override void InitStyles()
+		{
+			base.InitStyles();
+
+			//use the spanich font for menu entry styles
+			GameStyle.MenuEntryFontName = @"Fonts\ArialBlack48Spanish";
+		}
+
 		/// <summary>
 		/// Allows the game to run logic such as updating the world,
 		/// checking for collisions, gathering input, and playing audio.
