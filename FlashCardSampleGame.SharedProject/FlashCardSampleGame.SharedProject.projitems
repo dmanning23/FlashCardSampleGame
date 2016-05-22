@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b5e323e4-9399-4bc6-9f7b-029c2546d54b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>FlashCardSampleGame.SharedProject</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainMenuScreen.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack10.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack10Spanish.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack14.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack14Spanish.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack24.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack24Spanish.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack36.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack36Spanish.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack48.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack48Spanish.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack72.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack72Spanish.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack96.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack96Spanish.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Tools.mgcb" />
+  </ItemGroup>
+</Project>
