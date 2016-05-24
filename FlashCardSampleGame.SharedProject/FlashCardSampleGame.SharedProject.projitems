@@ -27,14 +27,6 @@
     <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack72Spanish.spritefont" />
     <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack96.spritefont" />
     <None Include="$(MSBuildThisFileDirectory)Content\ArialBlack96Spanish.spritefont" />
-    <None Include="$(MSBuildThisFileDirectory)Content\Tools.mgcb" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Spanish\Colors.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Spanish\Numbers.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Tools.mgcb" />
   </ItemGroup>
 </Project>

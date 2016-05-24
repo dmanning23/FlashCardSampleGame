@@ -1,25 +1,27 @@
 ﻿{
   "dependencies": {
     "FilenameBuddy": "1.0.2",
-    "FlashCards": "1.0.0",
+    "FlashCards": "1.0.4",
     "FontBuddy": "1.0.1",
     "GameTimer": "1.0.1",
     "HadoukInput": "1.0.2",
     "InputHelper": "1.0.15",
     "ListExtensions": "1.0.0",
     "MatrixExtensions": "1.0.1",
-    "MenuBuddy": "1.0.12",
+    "MenuBuddy": "1.0.18",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
     "MonoGame.Framework.WindowsUniversal": "3.5.1.1679",
-    "MouseBuddy": "1.0.5",
+    "MouseBuddy": "1.0.6",
     "PrimitiveBuddy": "1.0.0",
     "RandomExtensions.dmanning23": "1.0.2",
     "ResolutionBuddy": "1.0.2",
+    "SharpDX": "3.0.0",
+    "SharpDX.XAudio2": "3.0.0",
     "StateMachineBuddy": "1.0.0",
     "TetrisRandomizer": "1.0.0",
-    "TouchScreenBuddy": "1.0.4",
+    "TouchScreenBuddy": "1.0.5",
     "Vector2Extensions": "1.0.1",
-    "XmlBuddy": "1.0.2"
+    "XmlBuddy": "1.0.4"
   },
   "frameworks": {
     "uap10.0": {}

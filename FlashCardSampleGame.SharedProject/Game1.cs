@@ -1,16 +1,23 @@
 using MenuBuddy;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
+using InputHelper;
 
 namespace FlashCardSampleGame
 {
 	/// <summary>
 	/// This is the main type for your game
 	/// </summary>
+#if __IOS__ || ANDROID || WINDOWS_UAP
 	public class Game1 : TouchGame
+#else
+	public class Game1 : MouseGame
+#endif
 	{
 		public Game1()
 		{
+			var debug = new DebugInputComponent(this, ResolutionBuddy.Resolution.TransformationMatrix);
+			//DesiredScreenResolution = new Point(720, 1280);
 		}
 
 		public override IScreen[] GetMainMenuScreenStack()
@@ -20,14 +27,12 @@ namespace FlashCardSampleGame
 
 		protected override void InitStyles()
 		{
-			base.InitStyles();
-
-			//StyleSheet.
-
 			//use the spanich font for menu entry styles
-			StyleSheet.LargeFontResource = @"Fonts\ArialBlack48Spanish";
-			StyleSheet.MediumFontResource = @"Fonts\ArialBlack48Spanish";
-			StyleSheet.SmallFontResource = @"Fonts\ArialBlack48Spanish";
+			StyleSheet.LargeFontResource = @"ArialBlack72Spanish";
+			StyleSheet.MediumFontResource = @"ArialBlack48Spanish";
+			StyleSheet.SmallFontResource = @"ArialBlack24Spanish";
+
+			base.InitStyles();
 		}
 
 		/// <summary>
@@ -37,12 +42,14 @@ namespace FlashCardSampleGame
 		/// <param name="gameTime">Provides a snapshot of timing values.</param>
 		protected override void Update(GameTime gameTime)
 		{
+#if !__IOS__
 			// For Mobile devices, this logic will close the Game when the Back button is pressed
 			if ((GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed) ||
 				Keyboard.GetState().IsKeyDown(Keys.Escape))
 			{
 				Exit();
 			}
+#endif
 
 			// TODO: Add your update logic here
 			base.Update(gameTime);

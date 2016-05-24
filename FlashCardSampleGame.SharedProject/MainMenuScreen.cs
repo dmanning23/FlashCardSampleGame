@@ -42,13 +42,15 @@ namespace FlashCardSampleGame
 
 			// Add entries to the menu.
 			AddMenuEntry(questionMenuEntry);
+#if !__IOS__ && !ANDROID && !WINDOWS_UAP
 			AddMenuEntry(exitMenuEntry); //TODO: only remove this entry for the demo
+#endif
 
-			_cards = new Deck("Colors.xml");
+			_cards = new Deck(@"Spanish\Colors.xml");
 			_cards.ReadXmlFile();
 
 			//Add the Numbers deck too
-			var nums = new Deck("Numbers.xml");
+			var nums = new Deck(@"Spanish\Numbers.xml");
 			nums.ReadXmlFile();
 			_cards.AddDeck(nums);
 
@@ -75,7 +77,7 @@ namespace FlashCardSampleGame
 		{
 			const string message = "Are you sure you want to exit?";
 			var confirmExitMessageBox = new MessageBoxScreen(message);
-			confirmExitMessageBox.OnClick += ConfirmExitMessageBoxAccepted;
+			confirmExitMessageBox.OnSelect += ConfirmExitMessageBoxAccepted;
 			ScreenManager.AddScreen(confirmExitMessageBox, e.PlayerIndex);
 		}
 
@@ -85,12 +87,9 @@ namespace FlashCardSampleGame
 		/// </summary>
 		private void ConfirmExitMessageBoxAccepted(object sender, ClickEventArgs e)
 		{
+#if !__IOS__
 			ScreenManager.Game.Exit();
-		}
-
-		private void MarketplaceDenied(object sender, ClickEventArgs e)
-		{
-			ScreenManager.Game.Exit();
+#endif
 		}
 
 		public void QuestionAnswered(bool correct)
