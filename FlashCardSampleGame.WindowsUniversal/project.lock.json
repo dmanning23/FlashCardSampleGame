@@ -15,7 +15,7 @@
           "lib/uap10.0/FilenameBuddy.WindowsUniversal.dll": {}
         }
       },
-      "FlashCards/1.0.4": {
+      "FlashCards/1.0.6": {
         "type": "package",
         "dependencies": {
           "FilenameBuddy": "1.0.1",
@@ -45,7 +45,7 @@
           "lib/uap10.0/FlashCards.WindowsUniversal.dll": {}
         }
       },
-      "FontBuddy/1.0.1": {
+      "FontBuddy/1.0.2": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -2260,7 +2260,7 @@
           "lib/uap10.0/FilenameBuddy.WindowsUniversal.dll": {}
         }
       },
-      "FlashCards/1.0.4": {
+      "FlashCards/1.0.6": {
         "type": "package",
         "dependencies": {
           "FilenameBuddy": "1.0.1",
@@ -2290,7 +2290,7 @@
           "lib/uap10.0/FlashCards.WindowsUniversal.dll": {}
         }
       },
-      "FontBuddy/1.0.1": {
+      "FontBuddy/1.0.2": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -4371,7 +4371,7 @@
           "lib/uap10.0/FilenameBuddy.WindowsUniversal.dll": {}
         }
       },
-      "FlashCards/1.0.4": {
+      "FlashCards/1.0.6": {
         "type": "package",
         "dependencies": {
           "FilenameBuddy": "1.0.1",
@@ -4401,7 +4401,7 @@
           "lib/uap10.0/FlashCards.WindowsUniversal.dll": {}
         }
       },
-      "FontBuddy/1.0.1": {
+      "FontBuddy/1.0.2": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -6439,7 +6439,7 @@
           "lib/uap10.0/FilenameBuddy.WindowsUniversal.dll": {}
         }
       },
-      "FlashCards/1.0.4": {
+      "FlashCards/1.0.6": {
         "type": "package",
         "dependencies": {
           "FilenameBuddy": "1.0.1",
@@ -6469,7 +6469,7 @@
           "lib/uap10.0/FlashCards.WindowsUniversal.dll": {}
         }
       },
-      "FontBuddy/1.0.1": {
+      "FontBuddy/1.0.2": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -8559,7 +8559,7 @@
           "lib/uap10.0/FilenameBuddy.WindowsUniversal.dll": {}
         }
       },
-      "FlashCards/1.0.4": {
+      "FlashCards/1.0.6": {
         "type": "package",
         "dependencies": {
           "FilenameBuddy": "1.0.1",
@@ -8589,7 +8589,7 @@
           "lib/uap10.0/FlashCards.WindowsUniversal.dll": {}
         }
       },
-      "FontBuddy/1.0.1": {
+      "FontBuddy/1.0.2": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -10627,7 +10627,7 @@
           "lib/uap10.0/FilenameBuddy.WindowsUniversal.dll": {}
         }
       },
-      "FlashCards/1.0.4": {
+      "FlashCards/1.0.6": {
         "type": "package",
         "dependencies": {
           "FilenameBuddy": "1.0.1",
@@ -10657,7 +10657,7 @@
           "lib/uap10.0/FlashCards.WindowsUniversal.dll": {}
         }
       },
-      "FontBuddy/1.0.1": {
+      "FontBuddy/1.0.2": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -12747,7 +12747,7 @@
           "lib/uap10.0/FilenameBuddy.WindowsUniversal.dll": {}
         }
       },
-      "FlashCards/1.0.4": {
+      "FlashCards/1.0.6": {
         "type": "package",
         "dependencies": {
           "FilenameBuddy": "1.0.1",
@@ -12777,7 +12777,7 @@
           "lib/uap10.0/FlashCards.WindowsUniversal.dll": {}
         }
       },
-      "FontBuddy/1.0.1": {
+      "FontBuddy/1.0.2": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -14820,11 +14820,11 @@
         "lib/uap10.0/FilenameBuddy.WindowsUniversal.pdb"
       ]
     },
-    "FlashCards/1.0.4": {
-      "sha512": "UFkubenFcdymwLYYPr4VmFDGmyEbK8586QHNuPCX1H55wnQ8BgxRymfVkqqaOA5hri+WOtKjcMPZddM1+sPAgw==",
+    "FlashCards/1.0.6": {
+      "sha512": "XwQyQoBLpJNLlg1kKDf/D69Y/zLzVDL+0QkL1W4vNtF+p9ZmMiglBUp7xX1JxnnvLLESz1W/2Z9Q+oV8k3KZbA==",
       "type": "package",
       "files": [
-        "FlashCards.1.0.4.nupkg.sha512",
+        "FlashCards.1.0.6.nupkg.sha512",
         "FlashCards.nuspec",
         "lib/MonoAndroid10/FlashCards.Android.dll",
         "lib/MonoAndroid10/FlashCards.Android.pdb",
@@ -14836,11 +14836,11 @@
         "lib/uap10.0/FlashCards.WindowsUniversal.pdb"
       ]
     },
-    "FontBuddy/1.0.1": {
-      "sha512": "NAcQYSq/qKyfHrjG84ZeD17WLFOtpSMqRHjvH/OZCOrax30K9C52yHoxyMfh+5l8Qp8meUEfa75Dw/lF/F4Bwg==",
+    "FontBuddy/1.0.2": {
+      "sha512": "Fs2kbULolrKmd/nXm+CjD27ZxIBbXiODwi4kWyTF4l7OQWKvUMG1EbcMPZ4/2qlW5CHO6cpGZJ6SKtJIZxNvDg==",
       "type": "package",
       "files": [
-        "FontBuddy.1.0.1.nupkg.sha512",
+        "FontBuddy.1.0.2.nupkg.sha512",
         "FontBuddy.nuspec",
         "lib/MonoAndroid10/FontBuddyLib.Android.dll",
         "lib/MonoAndroid10/FontBuddyLib.Android.pdb",
@@ -18442,8 +18442,8 @@
   "projectFileDependencyGroups": {
     "": [
       "FilenameBuddy >= 1.0.2",
-      "FlashCards >= 1.0.4",
-      "FontBuddy >= 1.0.1",
+      "FlashCards >= 1.0.6",
+      "FontBuddy >= 1.0.2",
       "GameTimer >= 1.0.1",
       "HadoukInput >= 1.0.2",
       "InputHelper >= 1.0.15",

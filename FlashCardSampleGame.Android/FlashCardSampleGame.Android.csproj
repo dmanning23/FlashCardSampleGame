@@ -51,11 +51,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="FlashCards.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FlashCards.1.0.4\lib\MonoAndroid10\FlashCards.Android.dll</HintPath>
+      <HintPath>..\packages\FlashCards.1.0.6\lib\MonoAndroid10\FlashCards.Android.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="FontBuddyLib.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.1.0.1\lib\MonoAndroid10\FontBuddyLib.Android.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.1.0.2\lib\MonoAndroid10\FontBuddyLib.Android.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GameTimer.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">

@@ -1,8 +1,8 @@
 ﻿{
   "dependencies": {
     "FilenameBuddy": "1.0.2",
-    "FlashCards": "1.0.4",
-    "FontBuddy": "1.0.1",
+    "FlashCards": "1.0.6",
+    "FontBuddy": "1.0.2",
     "GameTimer": "1.0.1",
     "HadoukInput": "1.0.2",
     "InputHelper": "1.0.15",
