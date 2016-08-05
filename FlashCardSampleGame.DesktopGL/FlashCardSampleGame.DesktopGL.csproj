@@ -67,12 +67,8 @@
       <HintPath>..\packages\FilenameBuddy.1.0.2\lib\net452\FilenameBuddy.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="FlashCards.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FlashCards.1.0.6\lib\net451\FlashCards.DesktopGL.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="FontBuddyLib.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.1.0.2\lib\net451\FontBuddyLib.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.1.0.8\lib\net451\FontBuddyLib.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GameTimer.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -96,7 +92,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="MenuBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuBuddy.1.0.18\lib\net451\MenuBuddy.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\MenuBuddy.1.0.26\lib\net451\MenuBuddy.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
@@ -167,6 +163,12 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FlashCards\FlashCards\FlashCards.DesktopGL\FlashCards.DesktopGL.csproj">
+      <Project>{54d68257-6f4b-4919-a33b-bbfdd01d8d0e}</Project>
+      <Name>FlashCards.DesktopGL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -115,3 +115,15 @@
 /processorParam:Quality=Best
 /build:MenuSelect.wav
 
+#begin CorrectAnswer.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:CorrectAnswer.wav
+
+#begin WrongAnswer.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:WrongAnswer.wav
+
