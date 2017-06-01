@@ -64,15 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FilenameBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FilenameBuddy.1.0.2\lib\net452\FilenameBuddy.DesktopGL.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="FlashCards.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FlashCards.1.0.12\lib\net451\FlashCards.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\FilenameBuddy.1.0.3\lib\net452\FilenameBuddy.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="FontBuddyLib.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.1.0.8\lib\net451\FontBuddyLib.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.1.0.11\lib\net451\FontBuddyLib.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GameTimer.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -80,11 +76,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="HadoukInput.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HadoukInput.1.0.2\lib\net451\HadoukInput.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\HadoukInput.1.0.4\lib\net451\HadoukInput.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="InputHelper.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\InputHelper.1.0.15\lib\net451\InputHelper.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\InputHelper.1.0.17\lib\net451\InputHelper.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ListExtensions.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -92,11 +88,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="MatrixExtensions.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MatrixExtensions.1.0.1\lib\net451\MatrixExtensions.DesktopGL.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="MenuBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuBuddy.1.0.26\lib\net451\MenuBuddy.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\MatrixExtensions.1.0.2\lib\net451\MatrixExtensions.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
@@ -104,7 +96,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="MouseBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MouseBuddy.1.0.6\lib\net451\MouseBuddy.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\MouseBuddy.1.0.8\lib\net451\MouseBuddy.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="NVorbis, Version=0.8.4.0, Culture=neutral, processorArchitecture=MSIL">
@@ -116,37 +108,37 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="PrimitiveBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PrimitiveBuddy.1.0.0\lib\net451\PrimitiveBuddy.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\PrimitiveBuddy.1.0.3\lib\net451\PrimitiveBuddy.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="RandomExtensions.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RandomExtensions.dmanning23.1.0.2\lib\net452\RandomExtensions.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\RandomExtensions.dmanning23.1.0.3\lib\net452\RandomExtensions.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ResolutionBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ResolutionBuddy.1.0.2\lib\net451\ResolutionBuddy.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\ResolutionBuddy.1.0.8\lib\net451\ResolutionBuddy.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="StateMachineBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StateMachineBuddy.1.0.0\lib\net451\StateMachineBuddy.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\StateMachineBuddy.1.0.1\lib\net451\StateMachineBuddy.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="TetrisRandomizer.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TetrisRandomizer.1.0.0\lib\net451\TetrisRandomizer.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\TetrisRandomizer.1.0.1\lib\net451\TetrisRandomizer.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="TouchScreenBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TouchScreenBuddy.1.0.5\lib\net451\TouchScreenBuddy.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\TouchScreenBuddy.1.0.6\lib\net451\TouchScreenBuddy.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Vector2Extensions.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Vector2Extensions.1.0.1\lib\net451\Vector2Extensions.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\Vector2Extensions.1.0.6\lib\net451\Vector2Extensions.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="XmlBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\XmlBuddy.1.0.4\lib\net451\XmlBuddy.DesktopGL.dll</HintPath>
+      <HintPath>..\packages\XmlBuddy.1.0.14\lib\net451\XmlBuddy.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -160,6 +152,7 @@
       <Link>Content\Spanish\Numbers.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\XmlBuddy.Content.dll" />
     <Content Include="OpenTK.dll.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -169,6 +162,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="..\FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems" Label="Shared" />
+  <Import Project="..\..\FlashCards\FlashCards\FlashCards.SharedProject\FlashCards.SharedProject.projitems" Label="Shared" />
+  <Import Project="..\..\MenuBuddy\MenuBuddy\MenuBuddy.SharedProject\MenuBuddy.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

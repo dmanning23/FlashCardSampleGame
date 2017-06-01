@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCardSampleGame.DesktopGL", "FlashCardSampleGame.DesktopGL\FlashCardSampleGame.DesktopGL.csproj", "{A49F0156-84AF-4F72-84D5-B42FDA202212}"
 EndProject
@@ -13,13 +13,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCardSampleGame.Android
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCardSampleGame.iOS", "FlashCardSampleGame.iOS\FlashCardSampleGame.iOS.csproj", "{B59CC60F-86D8-4272-AFD0-5DB5441322AC}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FlashCards.SharedProject", "..\FlashCards\FlashCards\FlashCards.SharedProject\FlashCards.SharedProject.shproj", "{B33B759D-65B2-4571-B53A-6D91E8075570}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MenuBuddy.SharedProject", "..\MenuBuddy\MenuBuddy\MenuBuddy.SharedProject\MenuBuddy.SharedProject.shproj", "{0D2B86EA-9261-4F94-87A8-10EEEE72EC22}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems*{a49f0156-84af-4f72-84d5-b42fda202212}*SharedItemsImports = 4
+		..\MenuBuddy\MenuBuddy\MenuBuddy.SharedProject\MenuBuddy.SharedProject.projitems*{0d2b86ea-9261-4f94-87a8-10eeee72ec22}*SharedItemsImports = 13
 		FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems*{6d1f6130-419a-497c-bab3-8122ef6d040f}*SharedItemsImports = 4
-		FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems*{b5e323e4-9399-4bc6-9f7b-029c2546d54b}*SharedItemsImports = 13
 		FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems*{8980db92-961b-4c68-ade6-340be419efc9}*SharedItemsImports = 4
+		FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems*{a49f0156-84af-4f72-84d5-b42fda202212}*SharedItemsImports = 4
+		..\FlashCards\FlashCards\FlashCards.SharedProject\FlashCards.SharedProject.projitems*{a49f0156-84af-4f72-84d5-b42fda202212}*SharedItemsImports = 4
+		..\MenuBuddy\MenuBuddy\MenuBuddy.SharedProject\MenuBuddy.SharedProject.projitems*{a49f0156-84af-4f72-84d5-b42fda202212}*SharedItemsImports = 4
+		..\FlashCards\FlashCards\FlashCards.SharedProject\FlashCards.SharedProject.projitems*{b33b759d-65b2-4571-b53a-6d91e8075570}*SharedItemsImports = 13
 		FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems*{b59cc60f-86d8-4272-afd0-5db5441322ac}*SharedItemsImports = 4
+		FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems*{b5e323e4-9399-4bc6-9f7b-029c2546d54b}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

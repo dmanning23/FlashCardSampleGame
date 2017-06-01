@@ -2,6 +2,7 @@ using MenuBuddy;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using InputHelper;
+using ResolutionBuddy;
 
 namespace FlashCardSampleGame
 {
@@ -17,7 +18,11 @@ namespace FlashCardSampleGame
 		public Game1()
 		{
 			var debug = new DebugInputComponent(this, ResolutionBuddy.Resolution.TransformationMatrix);
-			//DesiredScreenResolution = new Point(720, 1280);
+			debug.DrawOrder = 100;
+
+			//var resolution = Services.GetService<IResolution>();
+			//resolution.VirtualResolution = new Point(720, 1280);
+			//resolution.ScreenResolution = new Point(720, 1280);
 		}
 
 		public override IScreen[] GetMainMenuScreenStack()

@@ -42,8 +42,6 @@ namespace FlashCardSampleGame.Android
 			global::ListExtensions.Android.Resource.String.Hello = global::FlashCardSampleGame.Android.Resource.String.Hello;
 			global::MatrixExtensions.Android.Resource.String.ApplicationName = global::FlashCardSampleGame.Android.Resource.String.ApplicationName;
 			global::MatrixExtensions.Android.Resource.String.Hello = global::FlashCardSampleGame.Android.Resource.String.Hello;
-			global::MenuBuddy.Android.Resource.String.ApplicationName = global::FlashCardSampleGame.Android.Resource.String.ApplicationName;
-			global::MenuBuddy.Android.Resource.String.Hello = global::FlashCardSampleGame.Android.Resource.String.Hello;
 			global::MouseBuddy.Android.Resource.String.ApplicationName = global::FlashCardSampleGame.Android.Resource.String.ApplicationName;
 			global::MouseBuddy.Android.Resource.String.Hello = global::FlashCardSampleGame.Android.Resource.String.Hello;
 			global::PrimitiveBuddy.Android.Resource.String.ApplicationName = global::FlashCardSampleGame.Android.Resource.String.ApplicationName;
