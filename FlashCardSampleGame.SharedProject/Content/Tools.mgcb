@@ -10,6 +10,7 @@
 
 #-------------------------------- References --------------------------------#
 
+/reference:..\..\FlashCardSampleGame.DesktopGL\Content\XmlBuddy.Content.dll
 
 #---------------------------------- Content ---------------------------------#
 
@@ -126,4 +127,14 @@
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:WrongAnswer.wav
+
+#begin Spanish/Colors.xml
+/importer:XmlSourceImporter
+/processor:XmlDocumentProcessor
+/build:Spanish/Colors.xml
+
+#begin Spanish/Numbers.xml
+/importer:XmlSourceImporter
+/processor:XmlDocumentProcessor
+/build:Spanish/Numbers.xml
 

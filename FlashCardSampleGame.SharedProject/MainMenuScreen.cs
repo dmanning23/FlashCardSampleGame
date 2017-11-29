@@ -47,11 +47,11 @@ namespace FlashCardSampleGame
 #endif
 
 			_cards = new Deck(@"Spanish\Colors.xml");
-			_cards.ReadXmlFile();
+			_cards.ReadXmlFile(Content);
 
 			//Add the Numbers deck too
 			var nums = new Deck(@"Spanish\Numbers.xml");
-			nums.ReadXmlFile();
+			nums.ReadXmlFile(Content);
 			_cards.AddDeck(nums);
 
 			base.LoadContent();
