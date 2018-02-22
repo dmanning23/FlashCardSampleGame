@@ -33,8 +33,8 @@ namespace FlashCardSampleGame
 			base.LoadContent();
 
 			// Create our menu entries.
-			var questionMenuEntry = new MenuEntry("Ask Question");
-			var exitMenuEntry = new MenuEntry("Exit");
+			var questionMenuEntry = new MenuEntry("Ask Question", Content);
+			var exitMenuEntry = new MenuEntry("Exit", Content);
 
 			// Hook up menu event handlers.
 			questionMenuEntry.OnClick += QuestionMenuEntrySelected;
