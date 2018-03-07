@@ -1,7 +1,6 @@
 using FlashCards;
-using MenuBuddy;
-using Microsoft.Xna.Framework;
 using InputHelper;
+using MenuBuddy;
 
 namespace FlashCardSampleGame
 {
@@ -67,7 +66,9 @@ namespace FlashCardSampleGame
 		private void QuestionMenuEntrySelected(object sender, ClickEventArgs e)
 		{
 			//Ask a simple question.
-			ScreenManager.AddScreen(new QuestionScreen(QuestionAnswered, _cards));
+			var screen = new QuestionScreen(_cards);
+			screen.QuestionAnswered += QuestionAnswered;
+			ScreenManager.AddScreen(screen);
 		}
 
 		/// <summary>
@@ -92,9 +93,9 @@ namespace FlashCardSampleGame
 #endif
 		}
 
-		public void QuestionAnswered(bool correct)
+		public void QuestionAnswered(object obj, QuestionEventArgs e)
 		{
-			if (correct)
+			if (e.AnsweredCorrectly)
 			{
 				_score++;
 			}
