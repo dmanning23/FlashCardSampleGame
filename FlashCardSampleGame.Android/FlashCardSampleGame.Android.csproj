@@ -50,7 +50,7 @@
       <HintPath>..\packages\FilenameBuddy.1.0.11\lib\MonoAndroid10\FilenameBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="FlashCards.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FlashCards.1.0.24\lib\MonoAndroid10\FlashCards.Android.dll</HintPath>
+      <HintPath>..\packages\FlashCards.1.0.27\lib\MonoAndroid10\FlashCards.Android.dll</HintPath>
     </Reference>
     <Reference Include="FontBuddyLib.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FontBuddy.1.0.22\lib\MonoAndroid10\FontBuddyLib.Android.dll</HintPath>
@@ -63,6 +63,9 @@
     </Reference>
     <Reference Include="InputHelper.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\InputHelper.1.0.21\lib\MonoAndroid10\InputHelper.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeBarBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LifeBarBuddy.1.0.10\lib\MonoAndroid10\LifeBarBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="ListExtensions.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ListExtensions.1.0.1\lib\MonoAndroid10\ListExtensions.Android.dll</HintPath>
@@ -148,6 +151,7 @@
     </AndroidAsset>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\MeterShader.fx" />
     <Content Include="Content\XmlBuddy.Content.dll" />
   </ItemGroup>
   <Import Project="..\FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems" Label="Shared" />

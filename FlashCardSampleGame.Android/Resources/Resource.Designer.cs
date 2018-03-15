@@ -28,8 +28,6 @@ namespace FlashCardSampleGame.Android
 		{
 			global::FilenameBuddy.Android.Resource.String.ApplicationName = global::FlashCardSampleGame.Android.Resource.String.ApplicationName;
 			global::FilenameBuddy.Android.Resource.String.Hello = global::FlashCardSampleGame.Android.Resource.String.Hello;
-			global::FlashCards.Android.Resource.String.ApplicationName = global::FlashCardSampleGame.Android.Resource.String.ApplicationName;
-			global::FlashCards.Android.Resource.String.Hello = global::FlashCardSampleGame.Android.Resource.String.Hello;
 			global::FontBuddyLib.Android.Resource.String.ApplicationName = global::FlashCardSampleGame.Android.Resource.String.ApplicationName;
 			global::FontBuddyLib.Android.Resource.String.Hello = global::FlashCardSampleGame.Android.Resource.String.Hello;
 			global::GameTimer.Android.Resource.String.ApplicationName = global::FlashCardSampleGame.Android.Resource.String.ApplicationName;

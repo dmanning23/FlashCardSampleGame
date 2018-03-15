@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCardSampleGame.DesktopGL", "FlashCardSampleGame.DesktopGL\FlashCardSampleGame.DesktopGL.csproj", "{A49F0156-84AF-4F72-84D5-B42FDA202212}"
 EndProject
@@ -255,5 +255,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {200691B3-BDB9-4C0A-80BA-D21138B221B5}
 	EndGlobalSection
 EndGlobal

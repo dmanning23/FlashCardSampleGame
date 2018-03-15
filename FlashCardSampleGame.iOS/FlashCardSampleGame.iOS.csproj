@@ -106,7 +106,7 @@
       <HintPath>..\packages\FilenameBuddy.1.0.11\lib\Xamarin.iOS10\FilenameBuddy.iOS.dll</HintPath>
     </Reference>
     <Reference Include="FlashCards.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FlashCards.1.0.24\lib\Xamarin.iOS10\FlashCards.iOS.dll</HintPath>
+      <HintPath>..\packages\FlashCards.1.0.27\lib\Xamarin.iOS10\FlashCards.iOS.dll</HintPath>
     </Reference>
     <Reference Include="FontBuddyLib.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FontBuddy.1.0.22\lib\Xamarin.iOS10\FontBuddyLib.iOS.dll</HintPath>
@@ -119,6 +119,9 @@
     </Reference>
     <Reference Include="InputHelper.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\InputHelper.1.0.21\lib\Xamarin.iOS10\InputHelper.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeBarBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LifeBarBuddy.1.0.10\lib\Xamarin.iOS10\LifeBarBuddy.iOS.dll</HintPath>
     </Reference>
     <Reference Include="ListExtensions.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ListExtensions.1.0.1\lib\Xamarin.iOS10\ListExtensions.iOS.dll</HintPath>
@@ -187,6 +190,7 @@
       <Link>Content\Spanish\Numbers.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\MeterShader.fx" />
     <Content Include="Content\XmlBuddy.Content.dll" />
   </ItemGroup>
   <Import Project="..\FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems" Label="Shared" />
