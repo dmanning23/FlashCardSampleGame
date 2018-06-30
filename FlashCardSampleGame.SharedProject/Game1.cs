@@ -1,7 +1,7 @@
+using InputHelper;
 using MenuBuddy;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
-using InputHelper;
 using ResolutionBuddy;
 
 namespace FlashCardSampleGame
@@ -20,9 +20,9 @@ namespace FlashCardSampleGame
 			var debug = new DebugInputComponent(this, ResolutionBuddy.Resolution.TransformationMatrix);
 			debug.DrawOrder = 100;
 
-			//var resolution = Services.GetService<IResolution>();
-			//resolution.VirtualResolution = new Point(720, 1280);
-			//resolution.ScreenResolution = new Point(720, 1280);
+			//Comment out these lines if you want to use the default landscape view
+			VirtualResolution = new Point(720, 1280);
+			ScreenResolution = new Point(720, 1280);
 		}
 
 		public override IScreen[] GetMainMenuScreenStack()

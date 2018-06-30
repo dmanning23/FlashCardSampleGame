@@ -10,7 +10,7 @@
 
 #-------------------------------- References --------------------------------#
 
-/reference:..\..\FlashCardSampleGame.DesktopGL\Content\XmlBuddy.Content.dll
+/reference:XmlBuddy.Content.dll
 
 #---------------------------------- Content ---------------------------------#
 
