@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCardSampleGame.DesktopGL", "FlashCardSampleGame.DesktopGL\FlashCardSampleGame.DesktopGL.csproj", "{A49F0156-84AF-4F72-84D5-B42FDA202212}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCardSampleGame.WindowsDX", "FlashCardSampleGame.DesktopGL\FlashCardSampleGame.WindowsDX.csproj", "{A49F0156-84AF-4F72-84D5-B42FDA202212}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FlashCardSampleGame.SharedProject", "FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.shproj", "{B5E323E4-9399-4BC6-9F7B-029C2546D54B}"
 EndProject
