@@ -1,6 +1,7 @@
 using FlashCards;
 using InputHelper;
 using MenuBuddy;
+using System.Threading.Tasks;
 
 namespace FlashCardSampleGame
 {
@@ -27,9 +28,9 @@ namespace FlashCardSampleGame
 		{
 		}
 
-		public override void LoadContent()
+		public override async Task LoadContent()
 		{
-			base.LoadContent();
+			await base.LoadContent();
 
 			// Create our menu entries.
 			var questionMenuEntry = new MenuEntry("Ask Question", Content);
@@ -52,8 +53,6 @@ namespace FlashCardSampleGame
 			var nums = new Deck(@"Spanish\Colors.xml");
 			nums.ReadXmlFile(Content);
 			_cards.AddDeck(nums);
-
-			base.LoadContent();
 		}
 
 		#endregion //Initialization
@@ -63,23 +62,23 @@ namespace FlashCardSampleGame
 		/// <summary>
 		/// Event handler for when the Ask Question menu entry is selected.
 		/// </summary>
-		private void QuestionMenuEntrySelected(object sender, ClickEventArgs e)
+		private async void QuestionMenuEntrySelected(object sender, ClickEventArgs e)
 		{
 			//Ask a simple question.
 			var screen = new QuestionScreen(_cards);
 			screen.QuestionAnswered += QuestionAnswered;
-			ScreenManager.AddScreen(screen);
+			await ScreenManager.AddScreen(screen);
 		}
 
 		/// <summary>
 		/// When the user cancels the main menu, ask if they want to exit the sample.
 		/// </summary>
-		protected void OnExit(object sender, ClickEventArgs e)
+		protected async void OnExit(object sender, ClickEventArgs e)
 		{
 			const string message = "Are you sure you want to exit?";
 			var confirmExitMessageBox = new MessageBoxScreen(message);
 			confirmExitMessageBox.OnSelect += ConfirmExitMessageBoxAccepted;
-			ScreenManager.AddScreen(confirmExitMessageBox, e.PlayerIndex);
+			await ScreenManager.AddScreen(confirmExitMessageBox, e.PlayerIndex);
 		}
 
 		/// <summary>

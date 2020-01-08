@@ -19,10 +19,11 @@
     <AndroidSupportedAbis>armeabi-v7a%3bx86</AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions>.m4a</AndroidStoreUncompressedFileExtensions>
     <MandroidI18n />
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MonoGamePlatform>Android</MonoGamePlatform>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,71 +48,73 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FilenameBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FilenameBuddy.1.0.12\lib\MonoAndroid10\FilenameBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\FilenameBuddy.2.0.8\lib\MonoAndroid10\FilenameBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="FlashCards.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FlashCards.1.0.34\lib\MonoAndroid10\FlashCards.Android.dll</HintPath>
+      <HintPath>..\packages\FlashCards.2.0.10\lib\MonoAndroid10\FlashCards.Android.dll</HintPath>
     </Reference>
     <Reference Include="FontBuddyLib.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.1.0.29\lib\MonoAndroid10\FontBuddyLib.Android.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.2.0.12\lib\MonoAndroid10\FontBuddyLib.Android.dll</HintPath>
     </Reference>
     <Reference Include="GameTimer.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GameTimer.1.0.8\lib\MonoAndroid10\GameTimer.Android.dll</HintPath>
+      <HintPath>..\packages\GameTimer.2.0.0\lib\MonoAndroid10\GameTimer.Android.dll</HintPath>
     </Reference>
     <Reference Include="HadoukInput.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HadoukInput.1.0.12\lib\MonoAndroid10\HadoukInput.Android.dll</HintPath>
+      <HintPath>..\packages\HadoukInput.2.0.27\lib\MonoAndroid10\HadoukInput.Android.dll</HintPath>
     </Reference>
     <Reference Include="InputHelper.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\InputHelper.1.0.22\lib\MonoAndroid10\InputHelper.Android.dll</HintPath>
+      <HintPath>..\packages\InputHelper.2.0.6\lib\MonoAndroid10\InputHelper.Android.dll</HintPath>
     </Reference>
     <Reference Include="LifeBarBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LifeBarBuddy.1.0.16\lib\MonoAndroid10\LifeBarBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\LifeBarBuddy.2.0.6\lib\MonoAndroid10\LifeBarBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="ListExtensions.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ListExtensions.1.0.1\lib\MonoAndroid10\ListExtensions.Android.dll</HintPath>
+      <HintPath>..\packages\ListExtensions.2.0.0\lib\MonoAndroid10\ListExtensions.Android.dll</HintPath>
     </Reference>
     <Reference Include="MatrixExtensions.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MatrixExtensions.1.0.3\lib\MonoAndroid10\MatrixExtensions.Android.dll</HintPath>
+      <HintPath>..\packages\MatrixExtensions.2.0.0\lib\MonoAndroid10\MatrixExtensions.Android.dll</HintPath>
     </Reference>
     <Reference Include="MenuBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuBuddy.1.0.147\lib\MonoAndroid10\MenuBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\MenuBuddy.2.0.51\lib\MonoAndroid10\MenuBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
-    <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MonoGame.Framework.Android.3.6.0.1625\lib\MonoAndroid\MonoGame.Framework.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="MonoGame.Framework, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.Android.3.7.1.189\lib\MonoAndroid\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="MouseBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MouseBuddy.1.0.9\lib\MonoAndroid10\MouseBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\MouseBuddy.2.0.2\lib\MonoAndroid10\MouseBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="PrimitiveBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PrimitiveBuddy.1.0.4\lib\MonoAndroid10\PrimitiveBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\PrimitiveBuddy.2.0.0\lib\MonoAndroid10\PrimitiveBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="RandomExtensions.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RandomExtensions.dmanning23.1.0.6\lib\MonoAndroid10\RandomExtensions.Android.dll</HintPath>
+      <HintPath>..\packages\RandomExtensions.dmanning23.2.0.0\lib\MonoAndroid10\RandomExtensions.Android.dll</HintPath>
     </Reference>
     <Reference Include="ResolutionBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ResolutionBuddy.1.0.17\lib\MonoAndroid10\ResolutionBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\ResolutionBuddy.2.0.1\lib\MonoAndroid10\ResolutionBuddy.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="SpriteFontPlus, Version=0.7.0.22, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpriteFontPlus.MonoGame.0.7.0.22\lib\netstandard2.0\SpriteFontPlus.dll</HintPath>
     </Reference>
     <Reference Include="StateMachineBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StateMachineBuddy.1.0.12\lib\MonoAndroid10\StateMachineBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\StateMachineBuddy.2.0.19\lib\MonoAndroid10\StateMachineBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="TetrisRandomizer.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TetrisRandomizer.1.0.2\lib\MonoAndroid10\TetrisRandomizer.Android.dll</HintPath>
+      <HintPath>..\packages\TetrisRandomizer.2.0.0\lib\MonoAndroid10\TetrisRandomizer.Android.dll</HintPath>
     </Reference>
     <Reference Include="TouchScreenBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TouchScreenBuddy.1.0.8\lib\MonoAndroid10\TouchScreenBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\TouchScreenBuddy.2.0.6\lib\MonoAndroid10\TouchScreenBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="Vector2Extensions.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Vector2Extensions.1.0.11\lib\MonoAndroid10\Vector2Extensions.Android.dll</HintPath>
+      <HintPath>..\packages\Vector2Extensions.2.0.2\lib\MonoAndroid10\Vector2Extensions.Android.dll</HintPath>
     </Reference>
     <Reference Include="XmlBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\XmlBuddy.1.0.20\lib\MonoAndroid10\XmlBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\XmlBuddy.2.0.1\lib\MonoAndroid10\XmlBuddy.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +123,49 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Content\bin\Android\AlphaGradient.xnb" />
+    <None Include="Content\bin\Android\ArialBlack10Spanish.xnb" />
+    <None Include="Content\bin\Android\ArialBlack14Spanish.xnb" />
+    <None Include="Content\bin\Android\ArialBlack24Spanish.xnb" />
+    <None Include="Content\bin\Android\ArialBlack36Spanish.xnb" />
+    <None Include="Content\bin\Android\ArialBlack48Spanish.xnb" />
+    <None Include="Content\bin\Android\ArialBlack72Spanish.xnb" />
+    <None Include="Content\bin\Android\ArialBlack96Spanish.xnb" />
+    <None Include="Content\bin\Android\Cancel.xnb" />
+    <None Include="Content\bin\Android\CorrectAnswer.xnb" />
+    <None Include="Content\bin\Android\gradient.xnb" />
+    <None Include="Content\bin\Android\hourglass.xnb" />
+    <None Include="Content\bin\Android\MenuMove.xnb" />
+    <None Include="Content\bin\Android\MenuSelect.xnb" />
+    <None Include="Content\bin\Android\MeterShader.xnb" />
+    <None Include="Content\bin\Android\Spanish\Colors.xnb" />
+    <None Include="Content\bin\Android\Spanish\Numbers.xnb" />
+    <None Include="Content\bin\Android\TimerBackground.xnb" />
+    <None Include="Content\bin\Android\TimerGradient.xnb" />
+    <None Include="Content\bin\Android\TimerMeter.xnb" />
+    <None Include="Content\bin\Android\WrongAnswer.xnb" />
+    <None Include="Content\obj\Android\.mgcontent" />
+    <None Include="Content\obj\Android\AlphaGradient.mgcontent" />
+    <None Include="Content\obj\Android\ArialBlack10Spanish.mgcontent" />
+    <None Include="Content\obj\Android\ArialBlack14Spanish.mgcontent" />
+    <None Include="Content\obj\Android\ArialBlack24Spanish.mgcontent" />
+    <None Include="Content\obj\Android\ArialBlack36Spanish.mgcontent" />
+    <None Include="Content\obj\Android\ArialBlack48Spanish.mgcontent" />
+    <None Include="Content\obj\Android\ArialBlack72Spanish.mgcontent" />
+    <None Include="Content\obj\Android\ArialBlack96Spanish.mgcontent" />
+    <None Include="Content\obj\Android\Cancel.mgcontent" />
+    <None Include="Content\obj\Android\CorrectAnswer.mgcontent" />
+    <None Include="Content\obj\Android\gradient.mgcontent" />
+    <None Include="Content\obj\Android\hourglass.mgcontent" />
+    <None Include="Content\obj\Android\MenuMove.mgcontent" />
+    <None Include="Content\obj\Android\MenuSelect.mgcontent" />
+    <None Include="Content\obj\Android\MeterShader.mgcontent" />
+    <None Include="Content\obj\Android\Spanish\Colors.mgcontent" />
+    <None Include="Content\obj\Android\Spanish\Numbers.mgcontent" />
+    <None Include="Content\obj\Android\TimerBackground.mgcontent" />
+    <None Include="Content\obj\Android\TimerGradient.mgcontent" />
+    <None Include="Content\obj\Android\TimerMeter.mgcontent" />
+    <None Include="Content\obj\Android\WrongAnswer.mgcontent" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
@@ -142,9 +188,20 @@
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\MeterShader.fx" />
+    <Content Include="Content\XmlBuddy.Content.dll" />
+  </ItemGroup>
   <Import Project="..\FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <Import Project="..\packages\MonoGame.Framework.Android.3.7.1.189\build\MonoGame.Framework.Android.targets" Condition="Exists('..\packages\MonoGame.Framework.Android.3.7.1.189\build\MonoGame.Framework.Android.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MonoGame.Framework.Android.3.7.1.189\build\MonoGame.Framework.Android.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MonoGame.Framework.Android.3.7.1.189\build\MonoGame.Framework.Android.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
