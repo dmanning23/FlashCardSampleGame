@@ -123,49 +123,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\bin\Android\AlphaGradient.xnb" />
-    <None Include="Content\bin\Android\ArialBlack10Spanish.xnb" />
-    <None Include="Content\bin\Android\ArialBlack14Spanish.xnb" />
-    <None Include="Content\bin\Android\ArialBlack24Spanish.xnb" />
-    <None Include="Content\bin\Android\ArialBlack36Spanish.xnb" />
-    <None Include="Content\bin\Android\ArialBlack48Spanish.xnb" />
-    <None Include="Content\bin\Android\ArialBlack72Spanish.xnb" />
-    <None Include="Content\bin\Android\ArialBlack96Spanish.xnb" />
-    <None Include="Content\bin\Android\Cancel.xnb" />
-    <None Include="Content\bin\Android\CorrectAnswer.xnb" />
-    <None Include="Content\bin\Android\gradient.xnb" />
-    <None Include="Content\bin\Android\hourglass.xnb" />
-    <None Include="Content\bin\Android\MenuMove.xnb" />
-    <None Include="Content\bin\Android\MenuSelect.xnb" />
-    <None Include="Content\bin\Android\MeterShader.xnb" />
-    <None Include="Content\bin\Android\Spanish\Colors.xnb" />
-    <None Include="Content\bin\Android\Spanish\Numbers.xnb" />
-    <None Include="Content\bin\Android\TimerBackground.xnb" />
-    <None Include="Content\bin\Android\TimerGradient.xnb" />
-    <None Include="Content\bin\Android\TimerMeter.xnb" />
-    <None Include="Content\bin\Android\WrongAnswer.xnb" />
-    <None Include="Content\obj\Android\.mgcontent" />
-    <None Include="Content\obj\Android\AlphaGradient.mgcontent" />
-    <None Include="Content\obj\Android\ArialBlack10Spanish.mgcontent" />
-    <None Include="Content\obj\Android\ArialBlack14Spanish.mgcontent" />
-    <None Include="Content\obj\Android\ArialBlack24Spanish.mgcontent" />
-    <None Include="Content\obj\Android\ArialBlack36Spanish.mgcontent" />
-    <None Include="Content\obj\Android\ArialBlack48Spanish.mgcontent" />
-    <None Include="Content\obj\Android\ArialBlack72Spanish.mgcontent" />
-    <None Include="Content\obj\Android\ArialBlack96Spanish.mgcontent" />
-    <None Include="Content\obj\Android\Cancel.mgcontent" />
-    <None Include="Content\obj\Android\CorrectAnswer.mgcontent" />
-    <None Include="Content\obj\Android\gradient.mgcontent" />
-    <None Include="Content\obj\Android\hourglass.mgcontent" />
-    <None Include="Content\obj\Android\MenuMove.mgcontent" />
-    <None Include="Content\obj\Android\MenuSelect.mgcontent" />
-    <None Include="Content\obj\Android\MeterShader.mgcontent" />
-    <None Include="Content\obj\Android\Spanish\Colors.mgcontent" />
-    <None Include="Content\obj\Android\Spanish\Numbers.mgcontent" />
-    <None Include="Content\obj\Android\TimerBackground.mgcontent" />
-    <None Include="Content\obj\Android\TimerGradient.mgcontent" />
-    <None Include="Content\obj\Android\TimerMeter.mgcontent" />
-    <None Include="Content\obj\Android\WrongAnswer.mgcontent" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
@@ -187,10 +144,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\MeterShader.fx" />
-    <Content Include="Content\XmlBuddy.Content.dll" />
   </ItemGroup>
   <Import Project="..\FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />

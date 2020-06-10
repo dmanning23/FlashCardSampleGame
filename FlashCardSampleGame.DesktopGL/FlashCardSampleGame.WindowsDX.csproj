@@ -165,54 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Content\bin\Windows\AlphaGradient.xnb" />
-    <None Include="Content\bin\Windows\ArialBlack10Spanish.xnb" />
-    <None Include="Content\bin\Windows\ArialBlack14Spanish.xnb" />
-    <None Include="Content\bin\Windows\ArialBlack24Spanish.xnb" />
-    <None Include="Content\bin\Windows\ArialBlack36Spanish.xnb" />
-    <None Include="Content\bin\Windows\ArialBlack48Spanish.xnb" />
-    <None Include="Content\bin\Windows\ArialBlack72Spanish.xnb" />
-    <None Include="Content\bin\Windows\ArialBlack96Spanish.xnb" />
-    <None Include="Content\bin\Windows\Cancel.xnb" />
-    <None Include="Content\bin\Windows\CorrectAnswer.xnb" />
-    <None Include="Content\bin\Windows\gradient.xnb" />
-    <None Include="Content\bin\Windows\hourglass.xnb" />
-    <None Include="Content\bin\Windows\MenuMove.xnb" />
-    <None Include="Content\bin\Windows\MenuSelect.xnb" />
-    <None Include="Content\bin\Windows\MeterShader.xnb" />
-    <None Include="Content\bin\Windows\Spanish\Colors.xnb" />
-    <None Include="Content\bin\Windows\Spanish\Numbers.xnb" />
-    <None Include="Content\bin\Windows\TimerBackground.xnb" />
-    <None Include="Content\bin\Windows\TimerGradient.xnb" />
-    <None Include="Content\bin\Windows\TimerMeter.xnb" />
-    <None Include="Content\bin\Windows\WrongAnswer.xnb" />
-    <None Include="Content\obj\Windows\.mgcontent" />
-    <None Include="Content\obj\Windows\AlphaGradient.mgcontent" />
-    <None Include="Content\obj\Windows\ArialBlack10Spanish.mgcontent" />
-    <None Include="Content\obj\Windows\ArialBlack14Spanish.mgcontent" />
-    <None Include="Content\obj\Windows\ArialBlack24Spanish.mgcontent" />
-    <None Include="Content\obj\Windows\ArialBlack36Spanish.mgcontent" />
-    <None Include="Content\obj\Windows\ArialBlack48Spanish.mgcontent" />
-    <None Include="Content\obj\Windows\ArialBlack72Spanish.mgcontent" />
-    <None Include="Content\obj\Windows\ArialBlack96Spanish.mgcontent" />
-    <None Include="Content\obj\Windows\Cancel.mgcontent" />
-    <None Include="Content\obj\Windows\CorrectAnswer.mgcontent" />
-    <None Include="Content\obj\Windows\gradient.mgcontent" />
-    <None Include="Content\obj\Windows\hourglass.mgcontent" />
-    <None Include="Content\obj\Windows\MenuMove.mgcontent" />
-    <None Include="Content\obj\Windows\MenuSelect.mgcontent" />
-    <None Include="Content\obj\Windows\MeterShader.mgcontent" />
-    <None Include="Content\obj\Windows\Spanish\Colors.mgcontent" />
-    <None Include="Content\obj\Windows\Spanish\Numbers.mgcontent" />
-    <None Include="Content\obj\Windows\TimerBackground.mgcontent" />
-    <None Include="Content\obj\Windows\TimerGradient.mgcontent" />
-    <None Include="Content\obj\Windows\TimerMeter.mgcontent" />
-    <None Include="Content\obj\Windows\WrongAnswer.mgcontent" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\MeterShader.fx" />
-    <Content Include="Content\XmlBuddy.Content.dll" />
   </ItemGroup>
   <Import Project="..\FlashCardSampleGame.SharedProject\FlashCardSampleGame.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
