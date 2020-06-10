@@ -8,7 +8,7 @@ namespace FlashCardSampleGame
 	/// <summary>
 	/// The main menu screen is the first thing displayed when the game starts up.
 	/// </summary>
-	internal class MainMenuScreen : MenuScreen, IMainMenu
+	internal class MainMenuScreen : MenuStackScreen, IMainMenu
 	{
 		#region Fields
 

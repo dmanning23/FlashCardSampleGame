@@ -3,7 +3,7 @@
 
 /outputDir:bin
 /intermediateDir:obj
-/platform:Windows
+/platform:Android
 /config:
 /profile:Reach
 /compress:False
@@ -13,6 +13,18 @@
 /reference:XmlBuddy.Content.dll
 
 #---------------------------------- Content ---------------------------------#
+
+#begin AlphaGradient.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:AlphaGradient.png
 
 #begin ArialBlack10Spanish.spritefont
 /importer:FontDescriptionImporter
@@ -63,18 +75,6 @@
 /processorParam:TextureFormat=Compressed
 /build:ArialBlack96Spanish.spritefont
 
-#begin AlphaGradient.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:AlphaGradient.png
-
 #begin Cancel.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -86,6 +86,12 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Cancel.png
+
+#begin CorrectAnswer.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:CorrectAnswer.wav
 
 #begin gradient.png
 /importer:TextureImporter
@@ -123,17 +129,11 @@
 /processorParam:Quality=Best
 /build:MenuSelect.wav
 
-#begin CorrectAnswer.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:CorrectAnswer.wav
-
-#begin WrongAnswer.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:WrongAnswer.wav
+#begin MeterShader.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:MeterShader.fx
 
 #begin Spanish/Colors.xml
 /importer:XmlSourceImporter
@@ -181,9 +181,9 @@
 /processorParam:TextureFormat=Color
 /build:TimerMeter.png
 
-#begin MeterShader.fx
-/importer:EffectImporter
-/processor:EffectProcessor
-/processorParam:DebugMode=Auto
-/build:MeterShader.fx
+#begin WrongAnswer.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:WrongAnswer.wav
 

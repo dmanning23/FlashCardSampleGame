@@ -1,6 +1,7 @@
 using InputHelper;
 using MenuBuddy;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using ResolutionBuddy;
 
@@ -17,8 +18,10 @@ namespace FlashCardSampleGame
 	{
 		public Game1()
 		{
-			var debug = new DebugInputComponent(this, ResolutionBuddy.Resolution.TransformationMatrix);
-			debug.DrawOrder = 100;
+#if DESKTOP
+			IsMouseVisible = true;
+#endif
+			this.Graphics.GraphicsProfile = GraphicsProfile.Reach;
 
 			//Comment out these lines if you want to use the default landscape view
 			VirtualResolution = new Point(720, 1280);
