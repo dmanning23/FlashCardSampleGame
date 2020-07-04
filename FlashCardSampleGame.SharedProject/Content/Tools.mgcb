@@ -3,7 +3,7 @@
 
 /outputDir:bin
 /intermediateDir:obj
-/platform:Android
+/platform:Windows
 /config:
 /profile:Reach
 /compress:False

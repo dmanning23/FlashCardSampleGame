@@ -46,11 +46,19 @@ namespace FlashCardSampleGame
 			AddMenuEntry(exitMenuEntry); //TODO: only remove this entry for the demo
 #endif
 
-			_cards = new Deck(@"Spanish\Numbers.xml");
+			_cards = new Deck(@"Spanish\Numbers.xml")
+			{
+				Language1 = "English",
+				Language2 = "Spanish"
+			};
 			_cards.ReadXmlFile(Content);
 
 			//Add the Numbers deck too
-			var nums = new Deck(@"Spanish\Colors.xml");
+			var nums = new Deck(@"Spanish\Colors.xml")
+			{
+				Language1 = "English",
+				Language2 = "Spanish"
+			};
 			nums.ReadXmlFile(Content);
 			_cards.AddDeck(nums);
 		}
