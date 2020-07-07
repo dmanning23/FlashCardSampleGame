@@ -36,9 +36,13 @@ namespace FlashCardSampleGame
 		protected override void InitStyles()
 		{
 			//use the spanich font for menu entry styles
-			StyleSheet.LargeFontResource = @"ArialBlack72Spanish";
-			StyleSheet.MediumFontResource = @"ArialBlack48Spanish";
-			StyleSheet.SmallFontResource = @"ArialBlack24Spanish";
+			StyleSheet.LargeFontResource = @"LuckiestGuy-Regular";
+			StyleSheet.MediumFontResource = @"LuckiestGuy-Regular";
+			StyleSheet.SmallFontResource = @"Roboto-Black_0";
+			StyleSheet.LargeFontSize = 96;
+			StyleSheet.MediumFontSize = 72;
+			StyleSheet.SmallFontSize = 48;
+			StyleSheet.UseFontPlus = true;
 
 			base.InitStyles();
 		}

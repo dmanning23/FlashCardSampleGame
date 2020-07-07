@@ -1,6 +1,8 @@
 using FlashCards;
+using FontBuddyLib;
 using InputHelper;
 using MenuBuddy;
+using System;
 using System.Threading.Tasks;
 
 namespace FlashCardSampleGame
@@ -16,6 +18,9 @@ namespace FlashCardSampleGame
 
 		Deck _cards;
 
+		IFontBuddy fontSmall;
+		IFontBuddy fontMedium;
+
 		#endregion //Fields
 
 		#region Initialization
@@ -30,22 +35,51 @@ namespace FlashCardSampleGame
 
 		public override async Task LoadContent()
 		{
-			await base.LoadContent();
+			try
+			{
+				await base.LoadContent();
 
-			// Create our menu entries.
-			var questionMenuEntry = new MenuEntry("Ask Question", Content);
-			var exitMenuEntry = new MenuEntry("Exit", Content);
+				// Create our menu entries.
+				var questionMenuEntry = new MenuEntry("Ask Question", Content);
+				var exitMenuEntry = new MenuEntry("Exit", Content);
 
-			// Hook up menu event handlers.
-			questionMenuEntry.OnClick += QuestionMenuEntrySelected;
-			exitMenuEntry.OnClick += OnExit;
+				// Hook up menu event handlers.
+				questionMenuEntry.OnClick += QuestionMenuEntrySelected;
+				exitMenuEntry.OnClick += OnExit;
 
-			// Add entries to the menu.
-			AddMenuEntry(questionMenuEntry);
+				// Add entries to the menu.
+				AddMenuEntry(questionMenuEntry);
 #if !__IOS__ && !ANDROID && !WINDOWS_UAP
-			AddMenuEntry(exitMenuEntry); //TODO: only remove this entry for the demo
+				AddMenuEntry(exitMenuEntry); //TODO: only remove this entry for the demo
 #endif
 
+				JapaneseGame();
+
+				//SpanishGame();
+			}
+			catch (Exception ex)
+			{
+				await ScreenManager.ErrorScreen(ex);
+			}
+		}
+
+		private void JapaneseGame()
+		{
+			fontSmall = new FontBuddyPlus();
+			fontSmall.LoadContent(Content, "NotoSansJP-Bold", true, StyleSheet.SmallFontSize);
+			fontMedium = new FontBuddyPlus();
+			fontMedium.LoadContent(Content, "NotoSansJP-Bold", true, StyleSheet.MediumFontSize);
+
+			_cards = new Deck(@"Japanese\Animals.xml")
+			{
+				Language1 = "English",
+				Language2 = "Japanese"
+			};
+			_cards.ReadXmlFile(Content);
+		}
+
+		private void SpanishGame()
+		{
 			_cards = new Deck(@"Spanish\Numbers.xml")
 			{
 				Language1 = "English",
@@ -73,7 +107,7 @@ namespace FlashCardSampleGame
 		private async void QuestionMenuEntrySelected(object sender, ClickEventArgs e)
 		{
 			//Ask a simple question.
-			var screen = new QuestionScreen(_cards);
+			var screen = new QuestionScreen(_cards, Content, fontSmall, fontMedium);
 			screen.QuestionAnswered += QuestionAnswered;
 			await ScreenManager.AddScreen(screen);
 		}

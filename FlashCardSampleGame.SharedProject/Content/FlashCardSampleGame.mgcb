@@ -1,0 +1,186 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin
+/intermediateDir:obj
+/platform:Android
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:XmlBuddy.Content.dll
+/reference:SpriteFontPlus.Content.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin AlphaGradient.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:AlphaGradient.png
+
+#begin Cancel.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Cancel.png
+
+#begin CorrectAnswer.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:CorrectAnswer.wav
+
+#begin gradient.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:gradient.png
+
+#begin hourglass.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:hourglass.png
+
+#begin Japanese/Animals.xml
+/importer:XmlSourceImporter
+/processor:XmlDocumentProcessor
+/build:Japanese/Animals.xml
+
+#begin LuckiestGuy-Regular.ttf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:LuckiestGuy-Regular.ttf
+
+#begin MenuMove.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:MenuMove.wav
+
+#begin MenuSelect.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:MenuSelect.wav
+
+#begin MeterShader.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:MeterShader.fx
+
+#begin NotoSansJP-Black.otf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:NotoSansJP-Black.otf
+
+#begin NotoSansJP-Bold.otf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:NotoSansJP-Bold.otf
+
+#begin NotoSansJP-Light.otf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:NotoSansJP-Light.otf
+
+#begin NotoSansJP-Medium.otf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:NotoSansJP-Medium.otf
+
+#begin NotoSansJP-Regular.otf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:NotoSansJP-Regular.otf
+
+#begin NotoSansJP-Thin.otf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:NotoSansJP-Thin.otf
+
+#begin Roboto-Black_0.ttf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:Roboto-Black_0.ttf
+
+#begin Spanish/Colors.xml
+/importer:XmlSourceImporter
+/processor:XmlDocumentProcessor
+/build:Spanish/Colors.xml
+
+#begin Spanish/Numbers.xml
+/importer:XmlSourceImporter
+/processor:XmlDocumentProcessor
+/build:Spanish/Numbers.xml
+
+#begin TimerBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TimerBackground.png
+
+#begin TimerGradient.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TimerGradient.png
+
+#begin TimerMeter.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TimerMeter.png
+
+#begin WrongAnswer.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:WrongAnswer.wav
+
