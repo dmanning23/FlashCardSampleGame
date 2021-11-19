@@ -1,4 +1,4 @@
-using FlashCards;
+using FlashCards.Core;
 using FontBuddyLib;
 using InputHelper;
 using MenuBuddy;
@@ -107,7 +107,7 @@ namespace FlashCardSampleGame
 		private async void QuestionMenuEntrySelected(object sender, ClickEventArgs e)
 		{
 			//Ask a simple question.
-			var screen = new QuestionScreen(_cards, Content, fontSmall, fontMedium);
+			var screen = new QuestionScreen(_cards, null, fontSmall, fontMedium);
 			screen.QuestionAnswered += QuestionAnswered;
 			await ScreenManager.AddScreen(screen);
 		}

@@ -178,6 +178,96 @@
 /processorParam:TextureFormat=Color
 /build:TimerMeter.png
 
+#begin TTS/English/bird.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/English/bird.mp3
+
+#begin TTS/English/cat.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/English/cat.mp3
+
+#begin TTS/English/cow.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/English/cow.mp3
+
+#begin TTS/English/dog.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/English/dog.mp3
+
+#begin TTS/English/fish.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/English/fish.mp3
+
+#begin TTS/EnglishQuestion.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/EnglishQuestion.mp3
+
+#begin TTS/Japanese/bird.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/Japanese/bird.mp3
+
+#begin TTS/Japanese/cat.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/Japanese/cat.mp3
+
+#begin TTS/Japanese/cow.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/Japanese/cow.mp3
+
+#begin TTS/Japanese/dog.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/Japanese/dog.mp3
+
+#begin TTS/Japanese/fish.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/Japanese/fish.mp3
+
+#begin TTS/JapaneseQuestion.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/JapaneseQuestion.mp3
+
+#begin TTS/SpanishQuestion.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:TTS/SpanishQuestion.mp3
+
+#begin volume-high.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:volume-high.png
+
 #begin WrongAnswer.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
